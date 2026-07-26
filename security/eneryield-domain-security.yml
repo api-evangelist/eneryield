@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: eneryield.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  6 04:57:01 2026 GMT
+  hsts: false
+domains:
+- domain: eneryield.com
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: false

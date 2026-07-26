@@ -1,7 +1,17 @@
 aid: eneryield
 name: Eneryield
-description: Eneryield is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Eneryield is a Gothenburg, Sweden based company (a Techstars portfolio company)
+  building AI-powered fault prediction and analytics for electric power systems.
+  Its flagship product, Eneryield IntelliView, uses explainable AI to forecast
+  power outages before they occur by analyzing voltage and current signals from
+  digital relays and merging units on overhead lines, underground cables, and
+  underwater cables. The cloud-based platform integrates directly into existing
+  utility monitoring systems without additional hardware, giving grid operators
+  transparent root-cause analysis so they can move to proactive maintenance and
+  reduce operational cost and downtime. As of this profile, Eneryield publishes
+  no public developer API, SDKs, or API documentation; this record captures its
+  identity and infrastructure posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/eneryield/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://impro.usercontent.one/appid/oneComWsb/domain/eneryield.com/media/eneryield.com/onewebmedia/Screenshot%202024-10-02%20at%2015.48.27.png
 tags:
 - Company
+- Energy
+- Utilities
+- Power Grid
+- Artificial Intelligence
+- Analytics
+- Predictive Maintenance
+- Fault Detection
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://eneryield.com/
+- type: Blog
+  url: https://eneryield.com/resources/blog/
+- type: Support
+  url: https://eneryield.com/contact-us/
+- type: GitHubOrganization
+  url: https://github.com/eneryield
+- type: LinkedIn
+  url: https://www.linkedin.com/company/eneryieldofficial
+- type: DomainSecurity
+  url: security/eneryield-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
